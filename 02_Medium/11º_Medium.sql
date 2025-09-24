@@ -1,4 +1,4 @@
--- Adicionar descrição ...
+-- Exibir todas as alergias ordenadas por popularidade. Remover valores NULL da consulta.
 SELECT
   allergies,
   COUNT(allergies) AS popularidade

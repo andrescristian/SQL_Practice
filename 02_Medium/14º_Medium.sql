@@ -1,4 +1,4 @@
--- Adicionar descrição da problemática nº 15
+-- Mostrar o province_id(s), soma da altura; onde a soma total da altura do paciente é maior ou igual a 7.000.
 SELECT
   province_id,
   SUM(height) AS Soma_Altura
